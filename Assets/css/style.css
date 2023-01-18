@@ -1,0 +1,295 @@
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+
+/* ========navbar-style======== */
+.navbar {
+    background: #DB011C;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+.navbar .navbar-nav .nav-item {
+    margin: 0 20px;
+}
+.navbar .navbar-nav li a {
+    color: #ffffff;
+}
+/* .navbar .navbar-nav .nav-item .container {
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+} */
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-list .title-one {
+    text-align: -webkit-center;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-list ul li a {
+    color: #000;
+    text-decoration: none;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-list ul li a span {
+    font-weight: 700;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .title-two ul li:hover {
+    background: #A8A8A8;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .title-two ul li a:hover {
+    color: #DB011C;
+}
+
+.navbar .log-in:hover a {
+    border: 1px solid black;
+    border-left: none;
+    border-radius: 4px;
+} 
+
+/* ------banner-section------- */
+.carousel .carousel-inner .carousel-item .carousel-caption {
+    left: 10%;
+    position: absolute;
+    top: 18%;
+    text-align: start;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-weight: 700;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.644);
+}
+.carousel .carousel-inner .carousel-item .carousel-caption button {
+    padding: 6px 30px;
+    border: 3px solid white;
+    background: none;
+    margin-top: 30px;
+    transition: .5s;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption button:hover {
+    border: 3px solid #DB011C;
+    background: #DB011C;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption button a {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    width: 2% !important;
+    z-index: 11 !important;
+}
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    background-color: #DB011C !important;
+    padding: 16px !important;
+}
+
+/* ----explore-section---- */
+.explore-section {
+    background-color: #DB011C;
+    padding: 70px 0;
+}
+.explore-section .explore-parrents .explore-one .explore-one-heading h4 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.explore-section .explore-parrents .explore-one .explore-one-card .card-one .card-img {
+    border: 2px outset #ffffff;
+    
+}
+
+.explore-section .explore-parrents .explore-two {
+    padding-top: 50px;
+}
+.explore-section .explore-parrents .explore-two .explore-two-slider .slider-card {
+    border: 4px solid #000;
+    transition: .5s;
+}
+.explore-section .explore-parrents .explore-two .explore-two-slider .slider-card:hover {
+    border: 4px solid #ffffff;
+}
+.explore-section .explore-parrents .explore-two .explore-two-slider .slider-card .card-heading {
+    padding: 30px 0;
+    background: #181515;
+}
+.explore-section .explore-parrents .explore-two .explore-two-slider .slider-card .card-heading h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* -----packout-section------ */
+.packout-section {
+    background: url(../images/packbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0 50px 0;
+}
+.packout-section .packout-parrents .packout-one .packout-logo {
+    width: fit-content;
+}
+.packout-section .packout-parrents .packout-one .packout-logo span {
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+}
+.packout-section .packout-parrents .packout-two {
+    margin-top:40px;
+}
+.packout-section .packout-parrents .packout-two .packout-heading h4 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+}
+.packout-section .packout-parrents .packout-two .packout-des p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+}
+.packout-section .packout-parrents .packout-two .packout-btn button {
+    padding: 10px 32px;
+    border: 3px solid #bd0118;
+    background: #bd0118;
+    transition: .5s;
+}
+.packout-section .packout-parrents .packout-two .packout-btn button:hover {
+    background: #DB011C;
+}
+
+/* -----accessories-section------ */
+.accessories-section {
+    background: #970215;
+    padding-bottom: 60px;
+}
+.accessories-section .accessories-parrents .accessories-nav ul li {
+    margin: 0 16px;
+    padding: 10px 10px;
+}
+.accessories-section .accessories-parrents .accessories-nav ul li a {
+    font-weight: 700;
+    font-size: 16px;
+    color: hsla(0,0%,100%,.5);
+    text-decoration: none;
+    cursor: pointer;
+}
+.accessories-section .accessories-parrents .accessories-nav ul li a:hover {
+    color: #ffffff;
+}
+.accessories-section .accessories-parrents .all-tabs a {
+    text-decoration: none;
+    border: 3px solid hsla(0,0%,100%,.5);
+    padding: 15px 20px 0 20px;
+    transition: .7s;
+}
+.accessories-section .accessories-parrents .all-tabs a:hover {
+    border: 3px solid #ffffff;
+}
+.accessories-section .accessories-parrents .all-tabs a .accessories-card .accessories-heading h2 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.accessories-section .accessories-parrents .all-tabs .accessories-card-btn button {
+    padding: 10px 35px;
+    border: 2px solid #ffffff;
+    background: none;
+    transition: .5s;
+    margin-top: 30px;
+}
+.accessories-section .accessories-parrents .all-tabs .accessories-card-btn button:hover {
+    background: #ffffff;
+}
+.accessories-section .accessories-parrents .all-tabs .accessories-card-btn button a {
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.accessories-section .accessories-parrents .all-tabs .accessories-card-btn button:hover a {
+    color: #970215;
+}
+
+/* -----form-section----- */
+.form-section {
+    background: #DB011C;
+    padding: 30px 0 40px 0;
+}
+.form-section .form-parrents .form-all {
+    margin: auto;
+    width: 63%;
+}
+.form-section .form-parrents .form-all .form-text h2 {
+    font-weight: 800;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 0rem !important;
+}
+.form-section .form-parrents .form-all .form-text p {
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 0rem !important;
+}
+.form-section .form-parrents .form-all .form .input input,
+.form-section .form-parrents .form-all .form .input select {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 4px 11px;
+    margin-top: 10px;
+}
+.form-section .form-parrents .form-all .form .form-btn label {
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+}
+.form-section .form-parrents .form-all .form .form-btn button {
+    font-weight: 700;
+    font-size: 15px;
+    color: #DB011C;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 60px;
+    transition: 0.5s;
+}
+.form-section .form-parrents .form-all .form .form-btn button:hover {
+    color: #ffffff;
+    background: none;
+}
+.form-section .form-parrents .form-all .form .form-btn span {
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+
+/* ----choket-section----- */
+.choket-parrents .choket-two ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
